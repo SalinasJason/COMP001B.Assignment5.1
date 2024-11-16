@@ -59,7 +59,9 @@ p {
 }
 
 #footer-container {
-
+	display: grid; /* Grid container */
+	text-align: center; /* Aligns the text to the center */
+	background: gray; /* Changes the background color to gray */
 }
 
 #header-container {
