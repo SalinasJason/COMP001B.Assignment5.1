@@ -67,5 +67,7 @@ p {
 }
 
 #main-container {
-
+	display: grid; /* Grid container */
+	grid-template-columns: 1fr 2fr 1fr; /* 3-column layout 1/4 nav width, 1/2 main width and 1/4 aside width */
+	gap: 10px; /* Spacing between grid content */
 }
