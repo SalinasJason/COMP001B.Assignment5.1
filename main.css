@@ -60,19 +60,19 @@ p {
 }
 
 #footer-container {
-	display: grid; /* Grid container */
+	display: grid; /* Enables grid-bases layout */
 	text-align: center; /* Aligns the text to the center */
 	background: gray; /* Changes the background color to gray */
 }
 
 #header-container {
-	display: grid; /* Grid container */
+	display: grid; /* Enables grid-bases layout */
 	text-align: center; /* Aligns the text to the center */
 	background: gray; /* Changes the background color to gray */
 }
 
 #main-container {
-	display: grid; /* Grid container */
+	display: grid; /* Enables grid-bases layout */
 	grid-template-columns: 1fr 2fr 1fr; /* 3-column layout 1/4 nav width, 1/2 main width and 1/4 aside width */
 	gap: 10px; /* Spacing between grid content */
 }
